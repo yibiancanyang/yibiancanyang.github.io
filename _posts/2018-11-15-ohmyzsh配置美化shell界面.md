@@ -20,7 +20,7 @@ chsh -s $(which zsh)
 ```shell
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 ```
-#使用oh-my-zsh
+# 使用oh-my-zsh
 
 zsh用户环境变量储存在 `~/.zshrc` 中，和`.bashrc`用法很相似，编辑该文件
 ```shell
@@ -37,7 +37,7 @@ plugins=(
 ```
 分布代表选用的主题和插件，这里我习惯用ys的主题，插件有git、历史补全搜索和语法高亮，其他插件可以自行探索
 
-#安装插件
+# 安装插件
 ```shell
 git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting

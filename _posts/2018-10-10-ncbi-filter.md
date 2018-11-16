@@ -2,8 +2,8 @@
 layout: post
 title:  "使用ncbi pubmed的filter对影响因子进行分类"
 date:  2018-10-09 8:10:45    
-categories: 文献
-tags:  ncbi 文献
+categories: paper
+tags:  pubmed paper
 ---
 
 * content
@@ -13,7 +13,7 @@ tags:  ncbi 文献
 
 进入[过滤器](https://www.ncbi.nlm.nih.gov/myncbi/filters/)
 
-下载影响因子2016.docx，点击create custon filter，在Query terms里面粘贴代码，将各个影响因子区段的代码依次粘贴到不同的filters中，点击save filter保存
+下载[Impact-factor-list-for-pubmed](https://github.com/yibiancanyang/Impact-factor-list-for-pubmed)，点击create custon filter，在Query terms里面粘贴代码，将各个影响因子区段的代码依次粘贴到不同的filters中，点击save filter保存
 
 
 
